@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+input {
+  width: 500px;
+}
+
+.logo {
+  border: 1px #ccc solid;
+}
+
+.bg-blend {
+  background-image: url(filtro.png);
+  background-blend-mode: multiply;
+  -webkit-mask-box-image: url(filtro.png);
+  -webkit-mask-mode: alpha;
+  mask-image:url(filtro.png);
+  mask-mode: alpha;
+}
+
+.bg {
+  background-image: url(extreme-ride.jpg);
+}
+
+.bg, .bg-blend {
+  width: 400px;
+  height: 400px;
+  background-size: cover;
+}
